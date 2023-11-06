@@ -1,5 +1,6 @@
 {{ define "main" }}
  <h1>{{ .Params.Title }}</h1>
+ <h5>by {{ .Site.Params.name }} on {{ .Site.Title }}</h5>
  <p>{{ .Date.Format "January 2, 2006" }}</p>
  {{ .Content }}
 {{ end }}
