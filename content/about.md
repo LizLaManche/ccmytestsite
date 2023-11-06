@@ -7,4 +7,13 @@ hide_footer: true
 
 <h2>About Me:</h2>
 I'm learning Hugo, one step at a time.
-<p>**Lorem Ipsum** is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+<p>A Go template is a normal HTML page. When you want to execute a piece of code,<br />you can use double curly braces like this: {{ "Hello!" }}.</p>
+
+<!-- Sometimes you'll want to set a variable globally in your config.toml. 
+Hugo has already initalized a title in your config.toml. You can access
+a variable from your global config with site. For example: -->
+
+<title>{{ .Params.title }} | {{ .Site.title }}</title>
+
+{{ $favorite_food := "Gazelle" }}
+{{ $favorite_food }}
