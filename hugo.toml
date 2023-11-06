@@ -1,0 +1,11 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My Test Site'
+MetaDataFormat = 'yaml'
+
+[params]
+  copyrighthtml = 'Copyright &#xA9; 2017 John Doe. All Rights Reserved.'
+  name = 'SMM'
+
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
