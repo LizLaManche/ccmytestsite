@@ -1,0 +1,9 @@
+- name: Joe Smith
+  city: Tubaville
+  products: soup, nuts
+- name: Jean Monroe
+  city: Medford
+  products: knowledge, puns
+- name: Wanda Fish
+  city: London
+  products: water, tea
